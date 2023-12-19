@@ -1,0 +1,17 @@
+{
+    "require": {
+      "php": "^7.3"
+    },
+    "require-dev": {
+    },
+    "config": {
+      "platform": {
+        "php": "7.3"
+      }
+    },
+    "scripts": {
+      "post-install-cmd": [
+        "cp -r vendor/heroku/heroku-buildpack-php/conf/* conf/"
+      ]
+    }
+  }
