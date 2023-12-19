@@ -1,0 +1,43 @@
+body{
+   
+    box-sizing: border-box;
+    background:url(../media/img/fondoform.png)no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgb(255, 242, 238);
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+
+
+ .tarjeta{
+  width: 690px;
+    background-color: rgb(255, 251, 231);
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.3);
+    margin-top: 60px;
+    
+}
+
+.titulo{
+    color:rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 500;        
+   
+}
+.micardfooter{
+    text-align: end;
+    margin:0px;
+}
+
+
+
+
